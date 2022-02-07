@@ -1,5 +1,4 @@
 package dio.metodo;
-import java.util.Scanner;
 
 public class Main {
     public static void main(String[]args){
@@ -23,6 +22,17 @@ public class Main {
         Emprestimo.calcula(1000,6);
 
         Emprestimo.calcula(2000,Emprestimo.getParcelas());
+
+        System.out.println(" --- Calculo Quadrilatero ---");
+
+        CalculoArea.area(2);
+        CalculoArea.area(2,3);
+        CalculoArea.area(3f,4f);
+        CalculoArea.area(5,4,2);
+
+        double resultAreaTriagulo = CalculoArea.areaTriangulo(2,4);
+
+        System.out.println("Valor da Area do triangulo: " + resultAreaTriagulo);
 
     }
 }
