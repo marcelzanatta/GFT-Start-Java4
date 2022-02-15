@@ -8,12 +8,12 @@ package br.com.dio.exercicios.loops;
 import java.util.Scanner;
 
 public class Ex6_Fatorial {
-    public static void main(String[] args) {
+  /*  public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
 
-        int numero ;
+        double numero ;
         System.out.println("Digite o numero: ");
-        numero = scan.nextInt();
+        numero = scan.nextDouble();
 
         int count = numero-1;
 
@@ -22,6 +22,6 @@ public class Ex6_Fatorial {
              numero = numero * count--;
         }
 
-        System.out.println("Resultado da fatoracao: " + numero);
-    }
+        System.out.printf("%.2f",result);System.out.print("%");
+    }*/
 }
